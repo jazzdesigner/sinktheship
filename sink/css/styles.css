@@ -1,0 +1,283 @@
+/*----------------------------------
+  ESTILS DE PRESENTACIÓ
+*----------------------------------*/
+
+body {
+    background: url(../img/bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Helvetica, Arial,sans-serif;
+}
+
+.container {
+    margin: auto;
+    width:1066px;
+}
+
+.container.top {
+    width:469px;
+}
+
+.container.bot {
+    width:884px;
+}
+
+
+#topMenu {
+	display: block;
+    background: url(../img/bgTop.png) repeat-x top center;
+    width:100%;
+    height:140px;
+    margin-bottom: 100px;
+}
+
+#logo {
+    background: url(../img/headerLogo.png);
+    display: block;
+    height: 124px;
+    position:absolute;
+    top: 72px;
+    width: 469px;
+}
+
+#board { 
+	display: block;
+	height: 355px;
+}
+
+#ownBoardA {
+	height:355px;
+	width: 173px;
+    float: left;
+    position: relative;
+}
+
+#ownBoardA table{
+	margin: 15px 0 0 16px;
+	position: absolute;
+	border: 1px solid #003041;
+}
+
+#ownBoardA table td{
+	border: 1px solid #003041;
+	height: 12px;
+    width: 12px;
+}
+
+#ownBoardB {
+	height:355px;
+	width: 173px;
+    float: left;
+    position: relative;
+}
+
+#ownBoardB table{
+	margin: 15px 0 0 14px;
+	position: absolute;
+	border: 1px solid #531a1a;
+}
+
+#ownBoardB table td{
+	border: 1px solid #531a1a;
+	height: 12px;
+    width: 12px;
+}
+
+#boardA {
+	display:inline-block;
+    background: url(../img/boardA.png);
+    margin-right: 1px;
+    height: 355px;
+    width: 359px;
+    float: left;
+    position: relative;
+}
+
+#boardA table {
+    border: 2px solid #002E3D;
+    box-shadow: 0 1px 1px #002E3D;
+    margin: 21px 0 0 21px;
+    position: absolute;
+}
+
+#boardA table td {
+    border: 1px solid #003041;
+    box-shadow: 1px 1px 1px #005876 inset, -1px -1px 1px #003041;
+    height: 29px;
+    width: 29px;
+}
+
+#boardA table td:hover {
+    cursor: pointer;
+    background: #002E3D;
+}
+
+#boardB {
+	display:inline-block;
+    background: url(../img/boardB.png);
+    height: 355px;
+    width: 359px;
+    float: left;
+    position: relative;
+}
+
+#boardB table {
+    border: 2px solid #491717;
+    box-shadow: 0 1px 2px #361111;
+    margin: 22px 0 0 24px;
+}
+
+#boardB table td{
+	border: 1px solid #531a1a;
+    box-shadow: 1px 1px 1px #972f2d inset, -1px -1px 1px #531a1a;
+	height: 29px;
+	width: 29px;
+}
+
+#boardB table td:hover {
+    cursor: pointer;
+    background: #361111;
+}
+
+#ownDisplayA {
+	display:block;
+    background: url(../img/ownDisplayA.png);
+    margin-top: 37px;
+    height: 171px;
+    width: 173px;
+}
+
+#labelA {
+	display:block;
+    background: url(../img/labelA.png);
+    height: 45px;
+    width: 173px;
+}
+
+#scoreA {
+	display:block;
+    background: url(../img/scoreA.png);
+    height: 45px;
+    width: 173px;
+}
+
+#scoreA p {
+    color: #002C3A;
+    font-family: georgia,serif;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 8px 0 0 118px;
+    text-shadow: 0 1px 0 #005876;
+}
+
+#ownDisplayB {
+	display: block;
+    background: url(../img/ownDisplayB.png);
+    margin-top: 37px;
+    height: 171px;
+    width: 173px;
+}
+
+#labelB {
+	display:block;
+    background: url(../img/labelB.png);
+    height: 45px;
+    width: 173px;
+}
+
+#scoreB {
+	display:block;
+    background: url(../img/scoreB.png);
+    height: 45px;
+    width: 173px;
+}
+
+#scoreB p {
+	color:#491717;
+	font-family: georgia, serif;
+	font-size: 23px;
+	font-weight: bold;
+	padding: 8px 0 0 118px;
+	text-shadow: 0 1px 0 #972F2D;
+}
+
+#footer {
+    background: url(../img/bgBottom.png) repeat-x center 88px;
+    display: block;
+    min-height: 229px;
+    max-height: 268px;
+    position: absolute;
+    width: 100%;
+}
+
+#resetBtn {
+    background: url(../img/resetBtnNormal.png) repeat top center;
+    display: block;
+    height: 139px;
+    width: 137px;
+    margin: 20px 0 0 373px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#resetBtn:hover {
+    background: url(../img/resetBtnOver.png);
+}
+
+#turns {
+	display: block;
+    background: url(../img/bottomMenu.png);
+    height: 183px;
+    width: 884px;
+    margin-top: 5px;
+}
+
+#turnB {
+    display: block;
+    float: right;
+    height: 32px;
+    margin: 72px 27px;
+    position: absolute;
+    width: 32px;
+}			
+
+#turnA {
+    display: block;
+    float: right;
+    height: 32px;
+    margin: 72px 27px;
+    position: relative;
+    width: 32px;
+}
+
+
+
+/*----------------------------------
+  ESTILS DE LÒGICA
+*----------------------------------*/
+
+.on {
+    background: url(../img/turnLightOff.png);
+}
+
+.off {
+    background: url(../img/turnLightOn.png);
+}
+
+.miss {
+	background: #555;
+	opacity: 0;
+	-moz-opacity: 0;
+}
+
+.hit {
+	background: #900;
+	opacity: 0;
+	-moz-opacity: 0;
+}
+
+.ship {
+	background: #222;
+}
